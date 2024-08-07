@@ -32,7 +32,7 @@ HAVING
     and count(DISTINCT case when  type ='Movie'  then show_id end)>0;
 ```
 **Insights**
-![number of movies and Tv shows](Assets\no._of_movie_and_tv_show.png)
+![no _of_movie_and_tv_show](https://github.com/user-attachments/assets/d633cdf8-2da5-401a-b6fd-b518d39fbb99))
 *ChatGPT generated this graph from my SQL query results*
 
 Average number of contents per director:
