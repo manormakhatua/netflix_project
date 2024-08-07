@@ -127,7 +127,7 @@ WHERE
 * Luc Vinciguerra: 2 movies
 * Wyatt Cenac: 1 movie
 * Luis Lopez, Clay Tweel: 1 movie
-![top 10 directors](Assets\top_10_directors.png)
+![top_10_directors](https://github.com/user-attachments/assets/e2be032b-1277-4c9e-9b73-029bdf1a12e1)
 *ChatGPT generated this graph from my SQL query results*
 
 - Movies added per year:
@@ -146,7 +146,7 @@ WHERE
 * 2020: 11
 * 2021: 16
 
-![number of movies per year](Assets\no._of_movies_per_year.png)
+![no _of_movies_per_year](https://github.com/user-attachments/assets/02b14f45-9bf7-44d6-ae79-387515aebe6f)
 *ChatGPT generated this graph from my SQL query results*
 
 ### 4. Average duration of movies in each genre
@@ -180,7 +180,7 @@ GROUP BY
 |Dramas, International Movies, Romantic Movies    |                 180|            118.97|
 |Comedies, International Movies                   |                 176|            104.17|
 
-![top 10 categories](Assets\top_10_categories.png)
+![top_10_categories](https://github.com/user-attachments/assets/bb03cd04-6974-4601-9e3c-7d736e835c78)
 *ChatGPT generated this graph from my SQL query results*
 
 ## 5. Identifying Directors Who Have Made Both Horror and Comedy Movies
@@ -210,9 +210,9 @@ count(DISTINCT case when listed_in= 'Comedies' THEN show_id END)>=0;
 - Jon Lucas & Scott Moore, Jay Roach, and Dennis Dugan are the top comedy directors with 2 movies each.
 - Most directors in the top 10 lists have directed only 1 movie in their respective genres.
 
-![top 10 directors by number of horror movies](Assets\top_10_horror_movie.png)
+![top_10_horror_movie](https://github.com/user-attachments/assets/1928570c-f382-4524-bdb7-bf4891574e3c)
 
-![top 10 directors by number of comedy movies](Assets\top_10_comedy_movie.png)
+![top_10_comedy_movie](https://github.com/user-attachments/assets/ef969d38-0315-4509-bc60-c1fdc8911671)
 *ChatGPT generated this graph from my SQL query results*
 
 Total number of movies:
